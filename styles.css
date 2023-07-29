@@ -43,17 +43,31 @@ img {
     overflow: hidden;
 }
 
-/* Стилі для заголовка h1 */
-h1 {
-    color: black; /* Змінено колір тексту заголовка на чорний */
+/* Стилі для прямокутника note_№? */
+.note-number {
+    color: white;
+    text-align: center;
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    margin: 0 auto;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+/* Стилі для текстового прямокутника */
+.text-box {
+    color: white; /* Змінено колір тексту заголовка на білий */
     text-align: center;
     width: 400px; /* Змінено ширину елемента h1 на більше значення */
     height: 100px; /* Залишено висоту елемента h1 */
     line-height: 100px; /* Збільшуємо висоту тексту, щоб текст був посередині елемента */
     margin: 0 auto; /* Центруємо текст в середині блоку */
     padding: 10px; /* Додаємо відступи для створення коробки */
-    background-color: white; /* Змінено фоновий колір текстової коробки на білий */
+    background-color: black; /* Змінено фоновий колір текстової коробки на чорний */
     border: 1px solid white; /* Додаємо білий контур для коробки */
+    border-radius: 10px; /* Закруглюємо кути квадрата */
 }
 
 /* Стилі для головного контейнера */
