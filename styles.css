@@ -31,23 +31,39 @@ img {
     border: 1px solid #ccc;
     border-radius: 5px;
 }
+/* Стилі для картинки */
+.image {
+    float: right;
+    margin-left: 10px;
+}
+
 /* Стилі для контейнера тексту */
 .text-container {
     overflow: hidden;
-    text-align: justify; /* Вирівнюємо текст по ширині контейнера */
 }
 
-/* Властивості для додавання прогалин між словами для вирівнювання */
-.text-container:after {
-    content: '';
-    display: inline-block;
-    width: 100%; /* Встановлюємо ширину блока */
+/* Стилі для заголовка h1 */
+h1 {
+    color: white; /* Змінено колір тексту заголовка на білий */
+    text-align: center;
+    width: 300px; /* Встановлюємо ширину елемента h1 */
+    margin: 0 auto; /* Центруємо текст в середині блоку */
+    padding: 10px; /* Додаємо відступи для створення квадрату */
+    border: 1px solid white; /* Додаємо білий контур для квадрату */
+    border-radius: 10px; /* Закруглюємо кути квадрату */
 }
 
-/* Властивості для створення "квадратної форми" тексту */
-.text-container:before {
-    content: '';
-    display: inline-block;
-    height: 0;
-    vertical-align: middle;
+/* Стилі для головного контейнера */
+body {
+    background-color: black; /* Змінено фоновий колір сторінки на чорний */
+    font-family: Arial, sans-serif;
+    color: white; /* Змінено колір тексту всередині сторінки на білий */
+}
+
+/* Стилі для зображення */
+img {
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
