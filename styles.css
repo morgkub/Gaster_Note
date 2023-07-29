@@ -1,22 +1,28 @@
+/* Стилі для картинки */
 .image {
     float: right;
     margin-left: 10px;
 }
 
+/* Стилі для контейнера тексту */
 .text-container {
     overflow: hidden;
 }
 
+/* Стилі для заголовка h1 */
 h1 {
-    color: blue;
+    color: white; /* Змінено колір тексту заголовка на білий */
     text-align: center;
 }
 
+/* Стилі для головного контейнера */
 body {
-    background-color: #f0f0f0;
+    background-color: black; /* Змінено фоновий колір сторінки на чорний */
     font-family: Arial, sans-serif;
+    color: white; /* Змінено колір тексту всередині сторінки на білий */
 }
 
+/* Стилі для зображення */
 img {
     display: block;
     margin: 0 auto;
@@ -24,10 +30,12 @@ img {
     border-radius: 5px;
 }
 
+/* Стилі для тексту у головному контейнері */
 main {
     padding: 20px;
 }
 
+/* Стилі для деяких символів */
 h1 span {
     font-size: 32px;
     font-weight: bold;
