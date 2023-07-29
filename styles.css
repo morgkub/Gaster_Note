@@ -30,13 +30,4 @@ img {
     border-radius: 5px;
 }
 
-/* Стилі для тексту у головному контейнері */
-main {
-    padding: 20px;
-}
 
-/* Стилі для деяких символів */
-h1 span {
-    font-size: 32px;
-    font-weight: bold;
-}
