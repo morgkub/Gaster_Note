@@ -4,45 +4,6 @@
     margin-left: 10px;
 }
 
-/* Стилі для контейнера тексту */
-.text-container {
-    overflow: hidden;
-}
-
-/* Стилі для заголовка h1 */
-h1 {
-    color: white; /* Змінено колір тексту заголовка на білий */
-    text-align: center;
-    column-count: 2; /* Розміщуємо текст у двох колонках */
-    column-gap: 20px; /* Відстань між колонками */
-}
-
-/* Стилі для головного контейнера */
-body {
-    background-color: black; /* Змінено фоновий колір сторінки на чорний */
-    font-family: Arial, sans-serif;
-    color: white; /* Змінено колір тексту всередині сторінки на білий */
-}
-
-/* Стилі для зображення */
-img {
-    display: block;
-    margin: 0 auto;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-/*this next*/
-/* Стилі для картинки */
-.image {
-    float: right;
-    margin-left: 10px;
-}
-
-/* Стилі для контейнера тексту */
-.text-container {
-    overflow: hidden;
-}
-
 /* Стилі для прямокутника note_№? */
 .note-number {
     color: white;
@@ -55,36 +16,6 @@ img {
     border: 1px solid white;
     border-radius: 10px;
 }
-
-/* Стилі для текстового прямокутника */
-.text-box {
-    color: white; /* Змінено колір тексту заголовка на білий */
-    text-align: center;
-    width: 400px; /* Змінено ширину елемента h1 на більше значення */
-    height: 100px; /* Залишено висоту елемента h1 */
-    line-height: 100px; /* Збільшуємо висоту тексту, щоб текст був посередині елемента */
-    margin: 0 auto; /* Центруємо текст в середині блоку */
-    padding: 10px; /* Додаємо відступи для створення коробки */
-    background-color: black; /* Змінено фоновий колір текстової коробки на чорний */
-    border: 1px solid white; /* Додаємо білий контур для коробки */
-    border-radius: 10px; /* Закруглюємо кути квадрата */
-}
-
-/* Стилі для головного контейнера */
-body {
-    background-color: black; /* Змінено фоновий колір сторінки на чорний */
-    font-family: Arial, sans-serif;
-    color: white; /* Змінено колір тексту всередині сторінки на білий */
-}
-
-/* Стилі для зображення */
-img {
-    display: block;
-    margin: 0 auto;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-/* ... решта стилів ... */
 
 /* Стилі для текстового прямокутника */
 .text-box {
@@ -101,4 +32,9 @@ img {
     overflow: hidden; /* Додаємо властивість overflow: hidden; */
 }
 
-/* ... решта стилів ... */
+/* Стилі для головного контейнера */
+body {
+    background-color: black; /* Змінено фоновий колір сторінки на чорний */
+    font-family: Arial, sans-serif;
+    color: white; /* Змінено колір тексту всередині сторінки на білий */
+}
