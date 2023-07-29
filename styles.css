@@ -13,6 +13,8 @@
 h1 {
     color: white; /* Змінено колір тексту заголовка на білий */
     text-align: center;
+    column-count: 2; /* Розміщуємо текст у двох колонках */
+    column-gap: 20px; /* Відстань між колонками */
 }
 
 /* Стилі для головного контейнера */
@@ -29,5 +31,23 @@ img {
     border: 1px solid #ccc;
     border-radius: 5px;
 }
+/* Стилі для контейнера тексту */
+.text-container {
+    overflow: hidden;
+    text-align: justify; /* Вирівнюємо текст по ширині контейнера */
+}
 
+/* Властивості для додавання прогалин між словами для вирівнювання */
+.text-container:after {
+    content: '';
+    display: inline-block;
+    width: 100%; /* Встановлюємо ширину блока */
+}
 
+/* Властивості для створення "квадратної форми" тексту */
+.text-container:before {
+    content: '';
+    display: inline-block;
+    height: 0;
+    vertical-align: middle;
+}
