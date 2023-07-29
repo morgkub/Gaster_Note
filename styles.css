@@ -22,19 +22,21 @@
     color: white;
     text-align: center;
     width: 400px;
-    height: 100px;
-    line-height: 100px;
+    height: auto; /* Замінено фіксовану висоту на автоматичну */
     margin: 0 auto;
     padding: 10px;
     background-color: black;
     border: 1px solid white;
     border-radius: 10px;
-    overflow: hidden; /* Додаємо властивість overflow: hidden; */
+    overflow: hidden;
+    display: flex; /* Використовуємо flexbox */
+    align-items: center; /* Центруємо текст по вертикалі */
+    flex-wrap: wrap; /* Дозволяємо тексту переноситися на новий рядок */
 }
 
 /* Стилі для головного контейнера */
 body {
-    background-color: black; /* Змінено фоновий колір сторінки на чорний */
+    background-color: black;
     font-family: Arial, sans-serif;
-    color: white; /* Змінено колір тексту всередині сторінки на білий */
+    color: white;
 }
