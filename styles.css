@@ -84,3 +84,21 @@ img {
     border: 1px solid #ccc;
     border-radius: 5px;
 }
+/* ... решта стилів ... */
+
+/* Стилі для текстового прямокутника */
+.text-box {
+    color: white;
+    text-align: center;
+    width: 400px;
+    height: 100px;
+    line-height: 100px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 10px;
+    overflow: hidden; /* Додаємо властивість overflow: hidden; */
+}
+
+/* ... решта стилів ... */
